@@ -2,7 +2,7 @@ import os, time, requests
 from threading import Thread
 from datetime import datetime
 
-credentials = input('Enter the account user:pass:cookie or cookie ~ ')
+credentials = input('F_nafmasterx:pass:cookie or cookie ~ ')
 if credentials.count(':') >= 2:
     username, password, cookie = credentials.split(':',2)
 else:
